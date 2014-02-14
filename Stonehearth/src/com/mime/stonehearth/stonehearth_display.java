@@ -21,7 +21,7 @@ public class stonehearth_display {
     private static Camera camera;
     private static int characterDisplayList;
 
-    private static final String MODEL_LOCATION = "res/models/character.obj";
+    private static final String MODEL_LOCATION = "src/models/character.obj";
 
     public static void main(String[] args) {
         setUpDisplay();
@@ -107,7 +107,7 @@ public class stonehearth_display {
         try {
             Display.setDisplayMode(new DisplayMode(640, 480));
             Display.setVSyncEnabled(true);
-            Display.setTitle("Happy Easter!");
+            Display.setTitle("Stonehearth Pre-Alpha 0.0.2");
             Display.create();
         } catch (LWJGLException e) {
             System.err.println("The display wasn't initialized correctly. :(");

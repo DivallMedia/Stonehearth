@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.lwjgl.opengl.GL11.*;
 
-/** @author Oskar */
+
 public class Model {
 
     private final List<Vector3f> vertices = new ArrayList<Vector3f>();
@@ -87,7 +87,6 @@ public class Model {
         public Texture texture;
     }
 
-    /** @author Oskar */
     public static class Face {
 
         private final int[] vertexIndices = {-1, -1, -1};
